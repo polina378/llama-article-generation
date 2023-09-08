@@ -1,3 +1,4 @@
+import requests
 from langchain.llms import CTransformers
 from langchain.chains import LLMChain
 from langchain import PromptTemplate
@@ -7,7 +8,6 @@ from docx import Document
 from docx.shared import Inches
 import io
 from PIL import Image
-import requests
 
 def fetch_photo(query):
     api_key = '9ly611qdSF70tNVdPGZpZHPsscis7RCOsMmEg4fZFWTSs2mz3buhWZMk'
